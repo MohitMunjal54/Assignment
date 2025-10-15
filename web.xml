@@ -1,0 +1,55 @@
+<web-app>
+    <servlet>
+        <servlet-name>SignupServlet</servlet-name>
+        <servlet-class>com.project.servlets.SignupServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SignupServlet</servlet-name>
+        <url-pattern>/signup</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.project.servlets.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UploadResumeServlet</servlet-name>
+        <servlet-class>com.project.servlets.UploadResumeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UploadResumeServlet</servlet-name>
+        <url-pattern>/uploadResume</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CreateJobServlet</servlet-name>
+        <servlet-class>com.project.servlets.CreateJobServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CreateJobServlet</servlet-name>
+        <url-pattern>/admin/job</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ViewJobsServlet</servlet-name>
+        <servlet-class>com.project.servlets.ViewJobsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ViewJobsServlet</servlet-name>
+        <url-pattern>/jobs</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ApplyJobServlet</servlet-name>
+        <servlet-class>com.project.servlets.ApplyJobServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ApplyJobServlet</servlet-name>
+        <url-pattern>/jobs/apply</url-pattern>
+    </servlet-mapping>
+</web-app>
